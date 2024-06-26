@@ -295,7 +295,7 @@ const animationTimeline = () => {
   // tl.seek("currentStep");
   // tl.timeScale(2);
 
-  // Restart Animation on click
+  
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {
     window.open("https://m-marshiro.github.io/mmmm/", "_blank");
