@@ -298,7 +298,7 @@ const animationTimeline = () => {
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {
-    window.location.href = "https://m-marshiro.github.io/mmmm/";
+    window.open("https://m-marshiro.github.io/mmmm/", "_blank");
   });
 };
 
